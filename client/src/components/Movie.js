@@ -17,7 +17,7 @@ const Movie = (props) => {
                 setMovie(res.data);
             })
             .catch(err=>{
-                console.log(err);
+                console.log(err.response);
             })
     }, [id]);
 

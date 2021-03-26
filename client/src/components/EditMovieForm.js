@@ -23,7 +23,7 @@ const EditMovieForm = (props) => {
     }
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+		e.preventDefault();
 	}
 	
 	const { title, director, genre, metascore, description } = movie;

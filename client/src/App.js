@@ -26,7 +26,6 @@ const App = (props) => {
   }, []);
 
   const deleteMovie = (id)=> {
-    
   }
 
   const addToFavorites = (movie) => {
